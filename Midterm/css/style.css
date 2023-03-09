@@ -1,0 +1,21 @@
+* {
+  box-sizing:border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+html, body {
+  margin: 0;
+} 
+
+body{
+ 	background-color:red;
+}
+@media (max-width:960px){
+	body{
+		background-color: black;
+	}
+}

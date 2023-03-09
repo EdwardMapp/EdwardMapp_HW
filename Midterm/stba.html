@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>See The Big Apple</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+  		color: tomato;
+  		background: linear-gradient(to right, rgba(64,150,238,1) 0%,rgba(122,188,255,1) 21%,rgba(122,188,255,1) 36%,rgba(121,184,247,1) 49%,rgba(104,170,237,1) 62%,rgba(63,159,255,1) 81%,rgba(64,150,238,1) 100%);
+  		text-align:center;
+  		font-family: 'Courier New', monospace;
+  		font-style: italic;
+      }
+
+      nav {
+        width: auto;
+        background-color: skyblue;
+        min-height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      img {
+      	width: 100%;
+      	height: auto;
+      }
+  
+    @media (min-width:320px) { 
+      body {
+        background-color: black;
+      }
+
+      .clear-fix:after {
+        display: block;
+        clear: both;
+        height: 0;
+        font-size: 0;
+        content: " ";
+        visibility: hidden;
+      }
+    }
+
+    @media only screen and (max-width:1024px) {  
+      body {
+        background-color: black;
+      }
+      
+      .clear-fix:after {
+        display: block;
+        clear: both;
+        height: 0;
+        font-size: 0;
+        content: " ";
+        visibility: hidden;
+      }
+    }
+  
+    @media only screen and (min-width:1024px) {  
+      body {
+        background-color: skyblue;
+      }
+
+      .clear-fix:after {
+        display: block;
+        clear: both;
+        height: 0;
+        font-size: 0;
+        content: " ";
+        visibility: hidden;
+      }
+    }
+  
+
+    </style>
+</head>
+<body>
+	<nav>
+      <p><h1>SeeTheBigApple</h1></p>
+    </nav>
+    <div>
+      <article>
+        <h1>Look around!</h1>
+        <p>See the city!</p>
+      </article>
+      <img src="img/Station4.jpg" />
+      	<footer>Subway Station - 18 Avenue</footer>
+      <img src="img/IMG_0023.JPG" />
+      	<footer>World Trade Center</footer>
+      <img src="img/OneVanderbilt.jpg" />
+        <footer>One Vanderbilt</footer>
+      <img src="img/CB.jpg" />
+        <footer>Chrysler Building</footer>
+      <img src="img/SoL.jpg" />
+        <footer>Statue of Liberty</footer>
+      <img src="img/GCT.jpg" />
+        <footer>Grand Central Terminal</footer>
+      
+    </div>
+</body>
+</html>
