@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Testing</title>
+</head>
+<body>
+	<form action="create-profile.js" name="user-create" target="_self" method="GET">
+		<fieldset>
+			<legend>Make sure to take daily cough medicine before sleep! Your bedtime is 11 PM.</legend>
+			<label for = "WhyClass">Is it time to take medicine?</label>
+		</fieldset>
+	
+	<p id = "time"></p>
+
+	<script>
+		if (new Date().getHours()==23){
+			medicine = "It's time to take medicine!"
+		} else {
+			medicine = "Wait till next time!"
+		}
+
+	document.getElementById("time").innerHTML = medicine;
+	</script>
+	</form>
+
+</body>
+</html>
